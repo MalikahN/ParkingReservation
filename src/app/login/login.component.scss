@@ -1,0 +1,22 @@
+.box{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    float: left;
+    padding: 40px 20px 40px 20px;
+    border-radius: 15px;
+    
+}
+.box mat-card-header mat-card-title {
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .box form mat-card-content mat-form-field {
+    background-color: white;
+  }
+
+  form .loginfield{
+    background-color: white;
+  }
+

@@ -1,1 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import 'bootstrap/scss/bootstrap';
+
+// @import "~bootstrap/dist/css/bootstrap.css";
+// @import "~font-awesome/css/font-awesome.css";
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  // background: #ffffff;
+  background-image: url("../src/assets/images/parking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app-header {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  //box-shadow: 0 3px 5px -1px rgb(255, 255, 255), 0 6px 10px 0 rgb(255, 255, 255), 0 1px 18px 0 rgba(0, 0, 0, .12);
+  box-shadow: none;
+}
+
+.login-wrapper {
+  height: 100%;
+  width: 35%;
+}
+
+.login-wrapper .example-form {
+  min-width: 100%;
+  max-width: 250px;
+  width: 100%;
+}
+
+.login-wrapper .example-full-width,
+.login-wrapper .btn-block {
+  width: 100%;
+  text-align: center;
+}
+
+.login-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+
+
+.login-wrapper .mat-stroked-button {
+  // border: 1px solid currentColor;
+  line-height: 5px;
+  background: #000000;
+
+}
+
+.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 0.8375em 0;
+}
+
+.login-wrapper .mat-mdc-text-field-wrapper{
+  background-color: rgb(0, 0, 0);
+}
+
+.login-wrapper .mat-mdc-form-field-bottom-align::before {
+  display: none;
+}
+
+.login-wrapper .mat-mdc-text-field-wrapper {
+  margin: 5px 0;
+}
+
+// .login-wrapper .box[_ngcontent-tug-c18] {
+//   height: 90%;
+//   margin-top: 35px;
+// }
+
+.login-wrapper {
+  padding-top: 25px;
+}

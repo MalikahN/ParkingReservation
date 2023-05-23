@@ -1,0 +1,20 @@
+.app-header .nav-tool-items a {
+    float: right;
+}
+
+.app-header .nav-tool-items{
+    width:100%;
+}
+// .app-header .nav-tool-items a{
+//     justify-content: flex-end;
+
+// }
+
+.app-header{
+    position: fixed;
+}
+
+.app-header .nav-tool-items h2{
+    float:left;
+    margin:0;
+}

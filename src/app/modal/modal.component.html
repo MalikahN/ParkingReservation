@@ -1,0 +1,18 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">User Details</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <div>
+   <h2>{{selectedUser.name}} Details</h2> 
+     <div>id: {{selectedUser.id}}</div>
+    <div>Username: {{selectedUser.name}}</div>
+    <div>Phone Number: {{selectedUser.PhoneNumber}}</div>
+    <div>Address: {{selectedUser.Address}}</div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="modalRef.close()">
+    Close
+  </button>
+</div>
